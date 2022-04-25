@@ -1,5 +1,5 @@
 import io from "socket.io-client";
 
-let socket = io("//localhost:5000");
+let socket = io("https://servidor-socket-sena.herokuapp.com/");
 
 export default socket;
